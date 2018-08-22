@@ -8,6 +8,7 @@ import { GtwTaskModule } from './task/task.module';
 import { GtwEmployeeModule } from './employee/employee.module';
 import { GtwJobModule } from './job/job.module';
 import { GtwJobHistoryModule } from './job-history/job-history.module';
+import { GtwBonCommandeModule as BizBonCommandeModule } from './biz/bon-commande/bon-commande.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -21,6 +22,7 @@ import { GtwJobHistoryModule } from './job-history/job-history.module';
         GtwEmployeeModule,
         GtwJobModule,
         GtwJobHistoryModule,
+        BizBonCommandeModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
