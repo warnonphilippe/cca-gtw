@@ -1,0 +1,20 @@
+
+/**
+ * The BonCommande entity.
+ */
+entity BonCommande {
+	code String,
+	libelle String,
+    description String,
+    montant Long
+}
+
+// Set pagination options
+paginate BonCommande with infinite-scroll
+
+//dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl except Employee, Job
+
+microservice BonCommande with biz
