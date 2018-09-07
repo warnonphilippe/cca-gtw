@@ -7,7 +7,8 @@ import { createRequestOption } from 'app/shared/util/request-util';
 
 @Injectable({ providedIn: 'root' })
 export class HireService {
-    private resourceUrl = SERVER_API_URL + 'srv/workflow/test-hire-process';
+    //private resourceUrl = SERVER_API_URL + 'srv/workflow/test-hire-process';
+    private resourceUrl = SERVER_API_URL + 'srv/api/hellowf';
 
     constructor(private http: HttpClient) {}
 

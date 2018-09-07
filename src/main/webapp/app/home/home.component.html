@@ -9,7 +9,7 @@
         <div [ngSwitch]="isAuthenticated()">
             <div class="alert alert-success" *ngSwitchCase="true">
                 <span *ngIf="account"> You are logged in as user "{{account.login}}". </span>
-                <a class="alert-link" (click)="test()">Test hire process...</a>
+                <a class="alert-link" (click)="test()">Test WF access...</a>
             </div>
 
             <div class="alert alert-warning" *ngSwitchCase="false">
