@@ -50,6 +50,7 @@ zuul: # those values must be configured depending on the application specific ne
     ignoredServices: '*'
     routes:
         biz: /biz/**
+        #wf: /wf/**
 
 # See https://github.com/Netflix/Hystrix/wiki/Configuration
 hystrix:
